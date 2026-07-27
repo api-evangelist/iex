@@ -1,8 +1,18 @@
 aid: iex
 name: IEX
-description: 'IEX is a company surfaced as a portfolio company of bain-capital-ventures, iconiq-capital,
-  ivp, sapphire-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  IEX Group, Inc. operates IEX Exchange, a U.S. national securities exchange for
+  equities founded to make trading fairer and more transparent, along with IEX
+  Options (coming soon). IEX is known for its Speed Bump, the IEX Signal, and the
+  D-Limit order type. Its developer- and data-facing surface is market data and
+  connectivity rather than a public REST API: real-time depth-of-book and
+  top-of-book feeds (DEEP+, DEEP, and TOPS, plus their SNAP variants) are
+  distributed over the binary IEX Transport Protocol (IEX-TP v1), with published
+  feed specifications, downloadable historical PCAP samples, and market
+  statistics. Data access is arranged through a Data Subscriber Agreement and
+  direct or third-party connectivity. Sector: fintech / financial markets
+  infrastructure. Backed by Bain Capital Ventures, ICONIQ Capital, IVP, and
+  Sapphire Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/iex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +23,31 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/63bc910a330e72662c5681bc/640645b90ac2aca1a1409fa6_IEX_Open-Graph.jpg
 tags:
 - Company
 - Fintech
+- Stock Exchange
+- Market Data
+- Trading
+- Equities
+- Options
+- Financial Services
+- Market Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +56,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://exchange.iex.io/
+  url: https://www.iex.io/
+- type: Documentation
+  url: https://www.iex.io/resources/trading/documents
+- type: APIReference
+  url: https://www.iex.io/resources/trading/market-data
+- type: Pricing
+  url: https://www.iex.io/resources/trading/fee-schedule
+- type: StatusPage
+  url: https://notifications.iex.io/status
+- type: Blog
+  url: https://www.iex.io/news
+- type: Login
+  url: https://auth.iextrading.com/
+- type: TermsOfService
+  url: https://www.iex.io/legal/terms
+- type: PrivacyPolicy
+  url: https://www.iex.io/legal/privacy
+- type: DomainSecurity
+  url: security/iex-domain-security.yml
+- type: LLMsTxt
+  url: llms/iex-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

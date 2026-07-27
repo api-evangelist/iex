@@ -1,0 +1,29 @@
+# IEX (Investors Exchange)
+
+> IEX Group, Inc. operates IEX Exchange, a U.S. national securities exchange for equities (with IEX Options coming soon), dedicated to fairer, more transparent trading. Its developer-facing surface is market-data and connectivity: real-time depth-of-book and top-of-book feeds (DEEP+, DEEP, TOPS) distributed over the binary IEX Transport Protocol (IEX-TP), plus downloadable historical PCAP samples and published feed specifications. Access is via a Data Subscriber Agreement rather than a public REST API.
+
+## Products
+- [IEX Exchange](https://www.iex.io/): Equities trading venue featuring the Speed Bump, IEX Signal, and the D-Limit order type.
+- [IEX Options](https://www.iex.io/): Options exchange (coming soon) focused on helping liquidity providers manage adverse selection.
+
+## Market Data & Connectivity
+- [Market Data](https://www.iex.io/resources/trading/market-data): DEEP+ (v1.02), DEEP+ SNAP (v1.03), DEEP (v1.08), DEEP SNAP (v1.5), TOPS (v1.66), TOPS SNAP (v1.5) feeds over IEX-TP v1, with sample PCAP files.
+- [Connect Directly](https://www.iex.io/resources/trading/get-connected-directly): Direct connectivity to IEX.
+- [Third Party Partners Connection](https://www.iex.io/resources/trading/third-party-partners-connection): Access via extranet / market-data partners.
+- [Market Stats](https://iextrading.com/stats/): Public market statistics.
+
+## Docs
+- [Documents](https://www.iex.io/resources/trading/documents): Feed specifications and technical documents.
+- [Rule Book](https://www.iex.io/documents/iex-exchange-rule-book): IEX Exchange rule book.
+- [Fee Schedule](https://www.iex.io/resources/trading/fee-schedule): Trading and market-data fees.
+- [Trading Hours & Holidays](https://www.iex.io/resources/trading/trading-hours-holidays)
+
+## Company
+- [About](https://www.iex.io/about)
+- [Newsroom](https://www.iex.io/news)
+- [Careers](https://www.iex.io/careers)
+- [System Status](https://notifications.iex.io/status)
+
+## Legal
+- [Terms of Service](https://www.iex.io/legal/terms)
+- [Privacy Policy](https://www.iex.io/legal/privacy)
