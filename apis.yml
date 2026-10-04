@@ -57,7 +57,7 @@ tags:
 - Trading
 - Stocks
 - Options
-- Financial-Services
+- Financial Services
 - Market Infrastructure
 tags_raw:
 - Company
@@ -69,6 +69,7 @@ tags_raw:
 - Options
 - Financial Services
 - Market Infrastructure
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
