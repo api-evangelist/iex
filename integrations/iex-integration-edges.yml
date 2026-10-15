@@ -1,0 +1,82 @@
+edges:
+- partner_name: ISO 10383 (MIC)
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
+  source: mic
+  category: registered trading venues and market segments
+  contract_reference:
+    register: ISO 10383 Market Identifier Codes (ISO 20022 registration authority)
+    spec_file: null
+    standard: ISO 10383
+    role: venue operator
+    matched_domain: iex.io
+    matched_by: domain+verified:iex.io
+    categories:
+    - ATSS
+    - NSPD
+    - RMKT
+    operating_mics:
+    - IEXA
+    - IEXG
+    mics:
+    - mic: IEXD
+      operating_mic: IEXG
+      segment: SGMT
+      market: INVESTORS EXCHANGE - DARK
+      category: NSPD
+      legal_name: INVESTORS EXCHANGE LLC
+      country: US
+    - mic: IEXG
+      operating_mic: IEXG
+      segment: OPRT
+      market: INVESTORS EXCHANGE
+      category: NSPD
+      legal_name: INVESTORS EXCHANGE LLC
+      country: US
+    - mic: IEXC
+      operating_mic: IEXG
+      segment: SGMT
+      market: INVESTORS EXCHANGE - DAX FACILITY
+      category: RMKT
+      legal_name: IEX DAX LLC
+      country: US
+    - mic: IEXA
+      operating_mic: IEXA
+      segment: OPRT
+      market: IEX DAP LLC
+      category: ATSS
+      legal_name: IEX DAP LLC
+      country: US
+    - mic: IEXO
+      operating_mic: IEXG
+      segment: SGMT
+      market: IEX OPTIONS LLC
+      category: RMKT
+      legal_name: IEX OPTIONS LLC
+      country: US
+    detected_by: sweep-capital-markets.py
+    detected: '2026-10-15'
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
+- partner_name: Twelve Data
+  partner: twelvedata
+  partner_match: aggregator
+  channel: partner-built
+  direction: partner-built
+  type: coverage
+  relationship: connector-coverage
+  evidence: https://api.twelvedata.com/exchanges
+  source: twelvedata
+  matched_by: mic:IEXG->domain+verified:iex.io
+  mic: IEXG
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://api.twelvedata.com/exchanges
+- https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
